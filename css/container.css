@@ -1,10 +1,13 @@
 .container{
-    max-width: 1000px;
+    display:grid;
+    grid-template-columns: 350px 1fr 350px;
     margin: 0 auto;
+    background-color: #f1ebeb;
 }
 
 .container__title{
-    padding: 20px;
+    grid-column-start: 2;
+    padding: 45px;
     color: #131212;
     font-style: italic;
     font-size: 16px;
