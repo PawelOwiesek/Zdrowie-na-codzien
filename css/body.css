@@ -1,0 +1,14 @@
+html{
+    box-sizing: border-box;
+}
+
+*,::after,::before{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #c4bbbb;
+    text-align: center;
+    font-family: "Robot",sans-serif;
+    margin: 0;
+}

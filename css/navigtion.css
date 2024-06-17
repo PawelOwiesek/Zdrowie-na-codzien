@@ -1,0 +1,23 @@
+.navigation {
+    background-color: #4e663a;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.navigation__item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.navigation__item:hover {
+    border-bottom: 3px solid #fff;
+}

@@ -1,0 +1,15 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container__title{
+    padding: 20px;
+    color: #131212;
+    font-style: italic;
+    font-size: 16px;
+}
+.container__quitation {
+    color: #4e663a;
+    font-size: 26px;
+}
