@@ -1,7 +1,7 @@
 .table{
     border-collapse: collapse;
-    width: 100%;
-    max-width: 800px;
+    max-width: 600px;
+    margin: 0 auto;
     background-color: #4e663a;
     color:#fff;
     cursor: pointer;

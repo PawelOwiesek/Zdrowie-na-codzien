@@ -25,3 +25,10 @@
 .navigation__item--dark{
     color:#222
 }
+
+@media(max-width:767px){
+    .navigation__list{
+        display: flex;
+        flex-direction: column;
+    }
+}
