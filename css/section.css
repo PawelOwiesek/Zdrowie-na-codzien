@@ -11,6 +11,11 @@
     text-align: center;
 }
 
+.section__subtitle{
+    text-align: center;
+    color: #4e663a;
+}
+
 .section__content {
     line-height: 1.5;
     font-size: 22px;
