@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/container.css" />
     <link rel="stylesheet" href="css/navigtion.css" />
     <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="css/table.css" />
     <title>Zdrowie na codzien!</title>
   </head>
   <body>
@@ -118,12 +119,76 @@
           dorosła kobieta potrzebuje około 1800-2400 kalorii dziennie, a dorosły
           mężczyzna 2200-3000 kalorii.
         </p>
-        <img
-          class="section__image--table"
-          src="images/tabela.jpg"
-          alt="tabela kalorii"
-          loading="lazy"
-        />
+        <div class="section__table">
+          <table class="table">
+            <tr>
+              <th class="tableCell" scope="col" rowspan="3">wiek/plec</th>
+              <th class="tableCell" scope="col" rowspan="3">
+                dla masy ciala(kg)
+              </th>
+              <th class="tableCell" scope="col" colspan="3">kcal/dobe</th>
+            </tr>
+            <tr>
+              <th class="tableCell" scope="col" colspan="3">
+                aktywnosc fizyczna
+              </th>
+            </tr>
+            <tr>
+              <th class="tableCell" scope="col">mala</th>
+              <th class="tableCell" scope="col">umiarkowana</th>
+              <th class="tableCell" scope="col">duza</th>
+            </tr>
+            <tr>
+              <th class="tableCell">7-9 lat,dzieci</th>
+              <td class="tableCell tableData">27</td>
+              <td class="tableCell tableData">1600</td>
+              <td class="tableCell tableData">1800</td>
+              <td class="tableCell tableData">2100</td>
+            </tr>
+            <tr>
+              <th class="tableCell">10-12 lat,dziewczynki</th>
+              <td class="tableCell tableData">37</td>
+              <td class="tableCell tableData">1800</td>
+              <td class="tableCell tableData">2100</td>
+              <td class="tableCell tableData">2400</td>
+            </tr>
+            <tr>
+              <th class="tableCell">10-12 lat,chlopcy</th>
+              <td class="tableCell tableData">38</td>
+              <td class="tableCell tableData">2100</td>
+              <td class="tableCell tableData">2400</td>
+              <td class="tableCell tableData">2800</td>
+            </tr>
+            <tr>
+              <th class="tableCell">13-15 lat,dziewczynkii</th>
+              <td class="tableCell tableData">51</td>
+              <td class="tableCell tableData">2100</td>
+              <td class="tableCell tableData">2400</td>
+              <td class="tableCell tableData">2800</td>
+            </tr>
+            <tr>
+              <th class="tableCell">13-15 lat,chlopcy</th>
+              <td class="tableCell tableData">53</td>
+              <td class="tableCell tableData">2600</td>
+              <td class="tableCell tableData">3000</td>
+              <td class="tableCell tableData">3500</td>
+            </tr>
+            <tr>
+              <th class="tableCell">16-18 lat,dziewczynki</th>
+              <td class="tableCell tableData">56</td>
+              <td class="tableCell tableData">2200</td>
+              <td class="tableCell tableData">2500</td>
+              <td class="tableCell tableData">2900</td>
+            </tr>
+            <tr>
+              <th class="tableCell">16-18 lat,chlopcy</th>
+              <td class="tableCell tableData">67</td>
+              <td class="tableCell tableData">2900</td>
+              <td class="tableCell tableData">3400</td>
+              <td class="tableCell tableData">3900</td>
+            </tr>
+          </table>
+        </div>
         <p class="section__content">
           Bilans energetyczny: Aby utrzymać wagę, liczba spożytych kalorii
           powinna być równa liczbie spalanych kalorii. Aby schudnąć, trzeba
