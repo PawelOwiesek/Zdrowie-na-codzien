@@ -28,3 +28,8 @@
    max-width: 700px;
    align-self: center;
 }
+
+.section__table{
+    overflow-x: auto;
+    margin: 0 auto;
+}
