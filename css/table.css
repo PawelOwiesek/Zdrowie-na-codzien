@@ -17,3 +17,10 @@
 tr:hover{
     background-color: hsl(93, 28%, 41%);
 }
+
+.table__caption{
+    color: #000;
+    margin: 10px;
+    font-size: 18px;
+    text-align: left;
+}
