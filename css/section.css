@@ -7,11 +7,11 @@
     text-align: left;
 }
 
-.section__title{
+.section__title {
     text-align: center;
 }
 
-.section__subtitle{
+.section__subtitle {
     text-align: center;
     color: #4e663a;
 }
@@ -29,12 +29,12 @@
     align-self: center;
 }
 
-.section__image--table{
-   max-width: 700px;
-   align-self: center;
+.section__image--table {
+    max-width: 700px;
+    align-self: center;
 }
 
-.section__table{
+.section__table {
     overflow-x: auto;
     margin: 0 auto;
 }
