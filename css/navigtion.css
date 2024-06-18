@@ -21,3 +21,7 @@
 .navigation__item:hover {
     border-bottom: 3px solid #fff;
 }
+
+.navigation__item--dark{
+    color:#222
+}
