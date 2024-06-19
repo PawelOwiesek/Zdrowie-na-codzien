@@ -23,7 +23,9 @@
 }
 
 .navigation__item--dark {
-    color: #222
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #4e663a;
 }
 
 @media(max-width:767px) {
@@ -31,12 +33,13 @@
         display: flex;
         flex-direction: column;
     }
+
     .navigation__item {
         display: inline-block;
         margin: 5px;
     }
-    .navigation__item:hover{
+
+    .navigation__item:hover {
         border-bottom: none;
     }
 }
-
