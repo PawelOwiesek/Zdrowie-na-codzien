@@ -31,11 +31,12 @@
         display: flex;
         flex-direction: column;
     }
-}
-
-@media(max-width:767px) {
     .navigation__item {
         display: inline-block;
         margin: 5px;
     }
+    .navigation__item:hover{
+        border-bottom: none;
+    }
 }
+
