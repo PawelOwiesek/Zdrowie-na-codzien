@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/navigtion.css" />
     <link rel="stylesheet" href="css/section.css" />
     <link rel="stylesheet" href="css/table.css" />
+    <link rel="stylesheet" href="css/bmi.css" />
     <title>Zdrowie na codzien!</title>
   </head>
   <body>
@@ -28,6 +29,7 @@
         <li><a class="navigation__item" href="#dieta">Dieta</a></li>
         <li><a class="navigation__item" href="#sport">Sport</a></li>
         <li><a class="navigation__item" href="#suplementy">Suplementy</a></li>
+        <li><a class="navigation__item" href="#BMI">BMI</a></li>
         <li><a class="navigation__item" href="#kontakt">Kontakt</a></li>
       </ul>
     </nav>
@@ -485,9 +487,8 @@
           alt="suplementy"
           loading="lazy"
         />
-        <a class="navigation__item navigation__item--dark" href="#home">Home</a>
       </section>
-      <section class="bmi">
+      <section class="bmi" id="BMI">
         <h2 class="bmi__title">BMI</h2>
         <p class="bmi__content">
           BMI (Body Mass Index), czyli wskaźnik masy ciała, to prosty sposób
@@ -495,28 +496,45 @@
           się go, dzieląc masę ciała (w kilogramach) przez kwadrat wzrostu (w
           metrach).
         </p>
-        <div >
+        <div>
           <form class="bmi__form js-form">
             <fieldset class="bmi__fieldset">
               <legend class="bmi__legend">Oblicz swoje BMI</legend>
               <p>
                 <label class="bmi__label"
-                  >Podaj wzrost w cm*
-                  <input class="bmi__input js-height" type="number" required step="0.5" min="70" max="250" />
+                  ><span class="bmi__span">Podaj wzrost w cm*</span>
+                  <input
+                    class="bmi__input js-height"
+                    type="number"
+                    required
+                    step="0.5"
+                    min="70"
+                    max="250"
+                  />
                 </label>
               </p>
               <p>
                 <label class="bmi__label"
-                  >Podaj wage w kg*
-                  <input class="bmi__input js-weight" type="number" required step="0.5" min="40" max="250" />
+                  ><span class="bmi__span">Podaj wage w kg*</span>
+                  <input
+                    class="bmi__input js-weight"
+                    type="number"
+                    required
+                    step="0.5"
+                    min="40"
+                    max="250"
+                  />
                 </label>
               </p>
-              <button>Przelicz !</button>
-              <p class="bmi__result">Twoje BMI wynosi <span class="bmi__score js-score">N/A</span></p>
+              <button class="bmi__button">Przelicz !</button>
+              <p class="bmi__result">
+                Twoje BMI wynosi <span class="bmi__score js-score">N/A</span>
+              </p>
               <span>* pole wymagane</span>
             </fieldset>
           </form>
         </div>
+        <a class="navigation__item navigation__item--dark" href="#home">Home</a>
       </section>
     </main>
     <footer>
