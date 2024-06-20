@@ -485,15 +485,45 @@
           alt="suplementy"
           loading="lazy"
         />
-
         <a class="navigation__item navigation__item--dark" href="#home">Home</a>
+      </section>
+      <section class="section">
+        <h2 class="section__title">BMI</h2>
+        <p class="section__content">
+          BMI (Body Mass Index), czyli wskaźnik masy ciała, to prosty sposób
+          oceny, czy masa ciała jest odpowiednia w stosunku do wzrostu. Oblicza
+          się go, dzieląc masę ciała (w kilogramach) przez kwadrat wzrostu (w
+          metrach).
+        </p>
+        <div class="section__bmi">
+          <form>
+            <fieldset>
+              <legend>Oblicz swoje BMI</legend>
+              <p>
+                <label
+                  >Podaj wzrost w cm*
+                  <input type="number" required step="0.5" min="70" max="250" />
+                </label>
+              </p>
+              <p>
+                <label
+                  >Podaj wage w kg*
+                  <input type="number" required step="0.5" min="40" max="250" />
+                </label>
+              </p>
+              <button>Przelicz !</button>
+              <p>Twoje BMI wynosi <span>N/A</span></p>
+            </fieldset>
+          </form>
+        </div>
       </section>
     </main>
     <footer>
       <p>&copy; 2024 Healthy Eating. All rights reserved.</p>
       <p>
         Website created by Pawel Owiesek. For inquiries, contact
-        <a id="kontakt" href="mailto:Pawel.Owiesek@example.com">Pawel.Owiesek@example.com</a
+        <a id="kontakt" href="mailto:Pawel.Owiesek@example.com"
+          >Pawel.Owiesek@example.com</a
         >.
       </p>
     </footer>
