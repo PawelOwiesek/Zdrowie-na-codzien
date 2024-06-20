@@ -26,6 +26,7 @@
     color: #f2f2f2;
     text-align: center;
     background-color: #4e663a;
+    border-bottom: 3px solid #fff;
 }
 
 @media(max-width:767px) {
