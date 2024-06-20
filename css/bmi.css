@@ -1,0 +1,76 @@
+.bmi{
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.bmi__title{
+    text-align: center;
+    color: #4e663a;
+}
+
+.bmi__content{
+    line-height: 1.5;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.bmi__form{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.bmi__fieldset{
+    border:3px solid #4e663a;
+    border-radius: 5px;
+}
+
+.bmi__legend{
+    font-size: 18px;
+   background-color: #4e663a;
+   color: #fff;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.bmi__span{
+display: inline-block;
+width:100%;
+max-width: 270px;
+font-size: 20px;
+}
+
+.bmi__input{
+    width:100%;
+    max-width: 250px;
+    padding: 10px;
+    border:3px solid #4e663a;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bmi__button{
+    width:100%;
+    background-color: #4e663a;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.bmi__result{
+    font-size: 20px;
+    text-align: center;
+}
+
+.bmi__score{
+    font-weight: bold;
+}
