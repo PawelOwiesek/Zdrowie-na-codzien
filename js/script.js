@@ -7,7 +7,7 @@
     let result;
     result = weight / (height / 100) ** 2;
     score.innerText = result.toFixed(0);
-    console.log(height);
+
   };
 
   const execute = () => {
