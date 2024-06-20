@@ -487,32 +487,33 @@
         />
         <a class="navigation__item navigation__item--dark" href="#home">Home</a>
       </section>
-      <section class="section">
-        <h2 class="section__title">BMI</h2>
-        <p class="section__content">
+      <section class="bmi">
+        <h2 class="bmi__title">BMI</h2>
+        <p class="bmi__content">
           BMI (Body Mass Index), czyli wskaźnik masy ciała, to prosty sposób
           oceny, czy masa ciała jest odpowiednia w stosunku do wzrostu. Oblicza
           się go, dzieląc masę ciała (w kilogramach) przez kwadrat wzrostu (w
           metrach).
         </p>
-        <div class="section__bmi">
-          <form>
-            <fieldset>
-              <legend>Oblicz swoje BMI</legend>
+        <div >
+          <form class="bmi__form js-form">
+            <fieldset class="bmi__fieldset">
+              <legend class="bmi__legend">Oblicz swoje BMI</legend>
               <p>
-                <label
+                <label class="bmi__label"
                   >Podaj wzrost w cm*
-                  <input type="number" required step="0.5" min="70" max="250" />
+                  <input class="bmi__input js-height" type="number" required step="0.5" min="70" max="250" />
                 </label>
               </p>
               <p>
-                <label
+                <label class="bmi__label"
                   >Podaj wage w kg*
-                  <input type="number" required step="0.5" min="40" max="250" />
+                  <input class="bmi__input js-weight" type="number" required step="0.5" min="40" max="250" />
                 </label>
               </p>
               <button>Przelicz !</button>
-              <p>Twoje BMI wynosi <span>N/A</span></p>
+              <p class="bmi__result">Twoje BMI wynosi <span class="bmi__score js-score">N/A</span></p>
+              <span>* pole wymagane</span>
             </fieldset>
           </form>
         </div>
